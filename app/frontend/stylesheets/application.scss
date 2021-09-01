@@ -1,0 +1,32 @@
+@import "~bootstrap/scss/bootstrap"; 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap'); 
+
+body {
+    background: #2374AB;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+
+}
+
+.navbar {
+  background: #4DCCBD;
+
+  &-brand {
+    font-size: 1.5em;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  margin: 5px;
+  color: #333;
+  background: #4DCCBD;
+  border: none;
+}

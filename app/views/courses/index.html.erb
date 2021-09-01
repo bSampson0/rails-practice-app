@@ -1,0 +1,20 @@
+<section class="py-2 container">
+  <div class="row">
+    <% Course.all.each do |course| %>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">
+              <%= course.short_name %> : <%= course.name %>
+            </h5>
+            <p class="card-text">
+              <%= course.description %>
+            </p>
+            <a href="#" class="card-link">Enroll</a>
+            <a href="#" class="card-link">Info</a>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</section>
